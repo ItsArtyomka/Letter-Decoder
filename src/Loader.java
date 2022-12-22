@@ -6,6 +6,10 @@ public class Loader {
         char ch3 = 'b';
 
         System.out.println(decode(ch1) + " " + decode(ch2) + " " + decode(ch3));
+
+        /*int variable = 7;
+        variable = (variable > 10) ? (variable -= 10) : (variable += 10);
+        System.out.println(variable);*/
     }
 
     public static String decode(char ch) {
